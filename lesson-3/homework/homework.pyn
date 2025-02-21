@@ -1,0 +1,110 @@
+#Task-1
+age=int(input('How old are you?'))
+if age<=12 :
+   print('50 percents  discount')
+elif age>=60 :
+   print('30 percents discount')
+else:
+   print('No discount')
+
+#Task-2
+name=input('What is your name?')
+password=input('Enter the password please?')
+stored_password='secure123'
+if password==stored_password:
+    print('Welcome Dear {name}')
+else:
+    print('incorrect password!')
+
+#Task-3
+score=float(input('Enter your grade please'))
+if score>=90 :
+    print('A')
+elif score>=80 and score<=89:
+    print('B')
+elif score>=70 and score <=79:
+    print('C')
+else :
+    print('F')
+
+#Task-4
+balance=float(input('Enter your balance please!'))
+withdrawal=float(input('Enter withdrawal amount:'))
+if balance>withdrawal and balance/10000>=1:
+    print(f'succesfully withdrawal {withdrawal}')
+    print(f'(reamaining balance:{balance}-{withdrawal})')
+else:
+    print('Your balance is not enough to take money!')
+
+#Task-5
+colour=input('What is the colour of the traffic light at the moment red ,yellow ,green?')
+if colour=='red':
+    print('You have to stop')
+elif colour=='yellow':
+    print('You should be ready to drive and wait')
+elif colour=='green':
+    print('Start driving ,today is your day')
+else:
+    print('Are you mocking at me ,there is only 3 colours on traffic light')
+
+#Task-6
+number=int(input('Enter the number like 1,2,....'))
+if number>0 and number%2==0 :
+    print('even')
+else:
+    print('odd')
+
+#Task-7
+weight=float(input('Please enter your weight in kg!'))
+height=float(input('Please enter your height in sm?'))/100
+bmi=weight/(height*height)
+if bmi>=40.0 :
+    print('Obese')
+elif bmi<40.0 and bmi>=25.0:
+    print('Overweight')
+elif bmi<25.0 and bmi>=18.5:
+    print('Normal')
+else:
+    print('Underweight')
+#Task-8
+name=input('What is your name bro?')
+weather=float(input('What is the  temperature in your town ?'))
+if weather>=40:print('do not leave your home')
+elif weather>=20 and weather<=30 :
+    print('it is a good day for walking')
+elif weather<=20 and weather>=5 :
+    print('it is cool day for tarvelling if you want cool weather')
+else:
+    print('it is some how cold if it is not important ,do not leave your home!')
+
+#Task-9
+name=input('what is your name dear our customer?')
+total_cost=float(input('How much do you spend for purchasing today in our shop?-in  dollar'))
+total_cost2=total_cost*1.10
+if total_cost>=50:
+    print(f'Our dear customer {name} achieved free shipping and you shouk pay only 💲{total_cost}')
+else:
+    print(f'Our dear customer {name} shoul pay 💲{total_cost2}')
+
+#Task-10
+account=input('Write your account type :savings,current,fixed deposit ')
+if account=='savings':
+    print('4 percents interest')
+elif account=='current':
+    print('NO interest')
+elif account=='fixed deposit':
+    print('6 percents intertest')
+else:
+    print('You wrote incorrect account type!')
+
+#Task-11
+score=float(input('write your score :'))
+if score>=90:
+    print('You take 20 percentages of discount')
+elif score<90 and score>=80:
+    print('YOU take 10 percentages of discount!')
+else:
+    print('You take a slap from your father🥲 ')
+
+
+
