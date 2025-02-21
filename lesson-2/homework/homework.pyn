@@ -1,0 +1,25 @@
+#task1
+name=input('What is your name?')
+year=int(input('which year were you born?'))
+age=2025-year
+print(f'{name} is {age} years old')
+
+#task 2
+txt='LMaasleitbtui'
+print(txt[1::2])
+print(txt[::2])
+
+#task3
+txt='MsaatmiazD'
+print(txt[0::2])
+print(txt[-1::-2])
+
+
+#task4
+txt='I\'am john .I am from London'
+a=txt.index('L')
+print(txt[a:])
+
+
+
+
