@@ -1,1 +1,21 @@
+a=float(input( 'What is the size of your square'))
+P=4*a
+S=a**2
+print(f'p={P}')
+print(f's={S}')
 
+R=float(input('what is the size of your circle'))
+L=2*3.14*R
+
+print(f'l={L}')
+a=float(input('what is the number?'))
+b=float(input('what is the next number'))
+print((a+b)/2)
+
+a=float(input('what is the number?'))
+b=float(input('what is the next number'))
+product=a*b
+sqra=a**2
+sqrb=b**2
+total=a+b
+print(f'product={product} sqra={sqra} sqrb={sqrb} sum={total}')
